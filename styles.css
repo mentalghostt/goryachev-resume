@@ -1,0 +1,131 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 20px;
+}
+
+h1 {
+    color: #507ca9;
+    margin-bottom: 5px;
+}
+
+h1+h2 {
+    color: #7f8c8d;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+h2+h3 {
+    color: #4a5253;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: #3498db;
+}
+
+.contact-info {
+    margin: 15px 0;
+}
+
+.contact-info p {
+    margin: 8px 0;
+}
+
+section {
+    margin-bottom: 25px;
+}
+
+h2 {
+    color: #3498db;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+}
+
+.cources{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.cource{
+    width: 245px;
+    height: 245px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1.5px solid black;
+    border-radius: 25px;
+    transition: all 0.2s ease;
+}
+
+.cource:hover{
+    width: 260px;
+    height: 260px;
+}
+
+.education {
+    margin-bottom: 15px;
+}
+
+.degree {
+    font-weight: bold;
+}
+
+.date {
+    color: #7f8c8d;
+    font-style: italic;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skill {
+    background: #e0f7fa;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+.frontend{
+    background-image: url("/img/frontend.png");
+}
+
+.content-manager{
+    background-image: url("img/content-manager.png");
+}
+
+.seo{
+    background-image: url("img/seo.png");
+}
+
+.admin1{
+    background-image: url("img/admin_base.png");
+}
+
+.admin2{
+    background-image: url("img/admin_modules.png");
+}
+
+.admin3{
+    background-image: url("img/admin_business.png");
+}
