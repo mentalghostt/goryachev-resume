@@ -65,6 +65,12 @@ h2 {
     gap: 20px;
 }
 
+@media (max-width: 768px){
+    .cources{
+        justify-content: center;
+    }
+}
+
 .cource{
     width: 245px;
     height: 245px;
