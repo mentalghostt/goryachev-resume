@@ -104,8 +104,12 @@ h2 {
     border-radius: 3px;
 }
 
+.exam1bitrix{
+    background-image: url("img/exam1-bitrix.png");
+}
+
 .frontend{
-    background-image: url("/img/frontend.png");
+    background-image: url("img/frontend.png");
 }
 
 .content-manager{
@@ -117,13 +121,13 @@ h2 {
 }
 
 .admin1{
-    background-image: url("img/admin_base.png");
+    background-image: url("img/admin1.png");
 }
 
 .admin2{
-    background-image: url("img/admin_modules.png");
+    background-image: url("img/admin2.png");
 }
 
 .admin3{
-    background-image: url("img/admin_business.png");
+    background-image: url("img/admin3.png");
 }
