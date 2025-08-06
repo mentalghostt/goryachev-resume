@@ -68,10 +68,15 @@ h2 {
 .cource{
     width: 245px;
     height: 245px;
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
     transition: all 0.2s ease;
+    overflow: hidden;
+}
+
+.cource img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    text-align: center;
 }
 
 .cource:hover{
@@ -102,32 +107,4 @@ h2 {
     background: #e0f7fa;
     padding: 5px 10px;
     border-radius: 3px;
-}
-
-.exam1bitrix{
-    background-image: url("img/exam1-bitrix.png");
-}
-
-.frontend{
-    background-image: url("img/frontend.png");
-}
-
-.content-manager{
-    background-image: url("img/content-manager.png");
-}
-
-.seo{
-    background-image: url("img/seo.png");
-}
-
-.admin1{
-    background-image: url("img/admin1.png");
-}
-
-.admin2{
-    background-image: url("img/admin2.png");
-}
-
-.admin3{
-    background-image: url("img/admin3.png");
 }
